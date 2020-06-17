@@ -1,0 +1,1 @@
+replies = [' Hey yoo', ' Waddup fam',' How you doin!', ' Howdy!', ' New account who dis?', ' stfu',' Hello there!',' Hewwo uWu',' k',' #Hello']
