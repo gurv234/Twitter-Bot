@@ -3,6 +3,7 @@ import time
 import tweetreplies
 import random
 
+#Input the consumer, access and secret keys generated for your Twitter Developer account.
 CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
 ACCESS_KEY = ''
@@ -26,7 +27,6 @@ def store_latest_id(latest_id, file_name):
     f_write.close()
     return
 
-#1259475886576816128 is id of first tweet
 def tweetReply():
     print('Retweeting in progress...')
     latest_id = get_latest_id(file_name)
